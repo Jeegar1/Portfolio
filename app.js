@@ -13,11 +13,11 @@
         document.body.classList.toggle("light-mode");
 
         // Toggle the computer image as per theme
-        var img = document.querySelector('.header-img').src;
+        var img = document.querySelector(".header-img").src;
         if (img.indexOf('computer_dark.svg')!=-1) {
-            document.querySelector('.header-img').src  = 'img/computer_light.svg';
+            document.querySelector(".header-img").src  = "img/computer_light.svg";
         } else {
-           document.querySelector('.header-img').src = 'img/computer_dark.svg';
+           document.querySelector(".header-img").src = "img/computer_dark.svg";
        }
     })
 })();
